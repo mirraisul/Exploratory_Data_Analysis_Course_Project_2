@@ -28,17 +28,3 @@ barplot(df$pm_values, df$year, names.arg = df$year, col = "red", ylim = c(0, 8e+
         xlab = "Year", ylab = "Emission of PM2.5 (tons)", main = "Comparison of PM2.5 Emissions")
 
 #So, the bar plot says that the emission of PM2.5 decreases from 1999 to 2008
-
-
-
-
-
-
-
-
-
-
-
-
-
-
