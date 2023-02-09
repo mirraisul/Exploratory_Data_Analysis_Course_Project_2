@@ -43,6 +43,8 @@ plt_06_c<-  ggplot(data = df_sum_callifornia_2, aes(x=Var1, y=value, fill=Var1))
 
 plt_06_c
 
+library(patchwork)
+
 plt_comb<- plt_06_b+plt_06_c
 
 plt_comb
